@@ -11,6 +11,7 @@ import HomeScreen from './HomeScreen';
 import FirstPage from './FirstPage.js';
 import ShoppingScreen from './ShoppingScreen';
 
+const gitUrl = "http://mahyar1982.github.io/software-modeling-demo";
 
 export default function App() {
   return (
@@ -19,13 +20,13 @@ export default function App() {
         <nav class="navbar navbar-expand navbar-dark bg-dark">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link" href={`/${gitUrl}`}>Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/login">login</a>
+              <a class="nav-link" href={`/${gitUrl}/login`}>login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/shopping">Shopping</a>
+              <a class="nav-link" href={`/${gitUrl}/shopping`}>Shopping</a>
             </li>
           </ul>
         </nav>
