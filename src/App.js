@@ -34,13 +34,13 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/shopping">
+          <Route path={`/${gitUrl}/shopping`}>
             <ShoppingScreen />
           </Route>
-          <Route path="/login">
+          <Route path={`/${gitUrl}/login`}>
             <HomeScreen />
           </Route>
-          <Route path="/">
+          <Route path={`/${gitUrl}`}>
             <FirstPage />
           </Route>
         </Switch>
