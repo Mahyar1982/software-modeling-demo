@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/software-modeling-demo/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/software-modeling-demo/static/js/main.66c8c8da.chunk.js",
+    "main.js.map": "/software-modeling-demo/static/js/main.66c8c8da.chunk.js.map",
+    "runtime-main.js": "/software-modeling-demo/static/js/runtime-main.e2699308.js",
+    "runtime-main.js.map": "/software-modeling-demo/static/js/runtime-main.e2699308.js.map",
+    "static/js/2.5349ca43.chunk.js": "/software-modeling-demo/static/js/2.5349ca43.chunk.js",
+    "static/js/2.5349ca43.chunk.js.map": "/software-modeling-demo/static/js/2.5349ca43.chunk.js.map",
+    "static/js/3.1882132e.chunk.js": "/software-modeling-demo/static/js/3.1882132e.chunk.js",
+    "static/js/3.1882132e.chunk.js.map": "/software-modeling-demo/static/js/3.1882132e.chunk.js.map",
+    "index.html": "/software-modeling-demo/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/software-modeling-demo/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.5349ca43.chunk.js.LICENSE.txt": "/software-modeling-demo/static/js/2.5349ca43.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/software-modeling-demo/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2699308.js",
+    "static/js/2.5349ca43.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.66c8c8da.chunk.js"
+  ]
+}
