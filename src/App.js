@@ -21,10 +21,10 @@ export default function App() {
               <Link class="nav-link" to="/">Home</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/login">login</a>
+              <Link class="nav-link" to="/login">login</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/shopping">Shopping</a>
+              <Link class="nav-link" to="/shopping">Shopping</Link>
             </li>
           </ul>
         </nav>
