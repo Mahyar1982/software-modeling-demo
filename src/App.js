@@ -11,8 +11,6 @@ import HomeScreen from './HomeScreen';
 import FirstPage from './FirstPage.js';
 import ShoppingScreen from './ShoppingScreen';
 
-const gitUrl = "http://mahyar1982.github.io/software-modeling-demo";
-
 export default function App() {
   return (
     <Router>
@@ -20,13 +18,13 @@ export default function App() {
         <nav class="navbar navbar-expand navbar-dark bg-dark">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href={`/${gitUrl}`}>Home</a>
+              <Link class="nav-link" to="/">Home</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href={`/${gitUrl}/login`}>login</a>
+              <a class="nav-link" href="/login">login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href={`/${gitUrl}/shopping`}>Shopping</a>
+              <a class="nav-link" href="/shopping">Shopping</a>
             </li>
           </ul>
         </nav>
@@ -34,13 +32,13 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path={`/${gitUrl}/shopping`}>
+          <Route path="/shopping">
             <ShoppingScreen />
           </Route>
-          <Route path={`/${gitUrl}/login`}>
+          <Route path="/login">
             <HomeScreen />
           </Route>
-          <Route path={`/${gitUrl}`}>
+          <Route path="/">
             <FirstPage />
           </Route>
         </Switch>
